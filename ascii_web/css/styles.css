@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', Sans-Serif;
+  font-weight: 550;
+}
+
+body {
+  display: grid;
+  background: linear-gradient(to bottom, #9D858D, #A4A8D1);
+}
+
+.output h1 {
+    padding-left: 43.2%;
+    padding-top: 4vh;
+    font-size: 10vh;
+    margin-bottom: 1%;
+    color: rgb(74, 71, 71);
+}
+
+.output #out_cont {
+    padding-bottom: 10vh;
+}
+
+.output #text {
+    margin-left: 3%;
+    background-color: #eeeeeeb9;
+    color: black;
+    width: 95%;
+    height: 20vh;
+    font-weight: 400;
+    border: 2px solid #A094AB;
+    border-radius: 22px 22px;
+    padding-left: 10px;
+    padding-top: 10px;
+    resize: none;
+}
+
+.input h1 {
+    text-align: center;
+    font-size: 10vh;
+    padding-top: 4vh;
+    color: rgb(74, 71, 71);
+}
+
+.input h2 {
+    padding-top: 2vh;
+    text-align: center;
+    font-size: 6vh;
+    color: rgb(74, 71, 71);
+}
+
+.input p {
+    font-size: 4vh;
+    color: rgb(74, 71, 71);
+}
+
+.input #text_p {
+    padding-top: 2%;
+    padding-left: 22%;
+    font-size: 3vh;
+}
+
+.input #box {
+    padding-left: 40%;
+    padding-top: 3%;
+}
+
+.input #select_div {
+    display: flex;
+}
+
+.input #options {
+    margin-left: 1.5vh;
+    height: 5vh;
+    width: 12vh;
+    background-color: #9D858D;
+    border: 2px solid #A094AB;
+    border-radius: 22px 22px;
+    color: rgba(255, 255, 255, 0.796);
+    padding-left: 0.5vh;    
+}
+
+.input #type {
+    display: grid;
+    margin: 5px;
+    margin-top: 5vh;
+    margin-left: 40vh;
+}
+
+.input #textarea {
+    width: 80%;
+    height: 20vh;
+    background-color: #eeeeeeb9;
+    font-weight: 400;
+    color: black;
+    border: 2px solid #A094AB;
+    border-radius: 22px 22px;
+    padding-left: 10px;
+    padding-top: 10px;
+    resize: none;
+}
+
+.input #button {
+    width: 79%;
+    margin-left: 0.5vh;
+    height: 3vh;
+    background-color: #9D858D;
+    border: 2px solid #A094AB;
+    border-radius: 22px 22px;
+    color: rgba(255, 255, 255, 0.796);
+    cursor: pointer;
+}
+
+.input #button:hover {
+    background-color: #A094AB;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.input #signature {
+    display: flex;
+    margin-left: 25vh;
+    margin-top: 10vh;
+}
