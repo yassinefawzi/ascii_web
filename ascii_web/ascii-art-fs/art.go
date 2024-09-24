@@ -1,10 +1,8 @@
-package art
+package fs
 
 import (
 	"fmt"
 	"strings"
-
-	"fs/ascii"
 )
 
 func Art(s string, banner string) string {
