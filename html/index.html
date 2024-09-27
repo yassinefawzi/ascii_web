@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/css/styles.css" />
+  <title>Home</title>
+</head>
+
+<body>
+  <section class="input">
+    <div id="in_cont">
+      <div id="Text">
+        <h1 id="head">Enter Text</h1>
+        <h2>How to use</h2>
+        <p id="text_p">
+          Select a banner for your text and then Type it in Text area and
+          click the button
+        </p>
+      </div>
+      <div id="box">
+        <div id="select">
+          <div id="select_div">
+            <p>Choose your banner</p>
+            <form action="/art" method="post">
+              <select id="options" name="banner">
+                <option value="standard" selected>Standard</option>
+                <option value="shadow">Shadow</option>
+                <option value="thinkertoy">Thinkertoy</option>
+              </select>
+          </div>
+        </div>
+      </div>
+      <div id="type">
+        <textarea id="textarea" name="text" placeholder="Type text here"></textarea>
+        <button id="button">Done</button>
+            </div>
+      </form>
+    </div>
+  </section>
+  <section class="output">
+    <div id="out_cont">
+      <h1>Result</h1>
+      <pre id="text">{{.Result}}</pre>
+    </div>
+  </section>
+</body>
+
+</html>
